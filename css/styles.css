@@ -1,11 +1,11 @@
 body {
-  background-color: antiquewhite;
+  background-color: rgb(232, 236, 255);
   font-family: sans-serif;
 }
 
 .container {
   max-width: 600px;
-  background-color: rgb(255, 239, 251);
+  background-color: rgba(165, 206, 199, 0.8);
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
