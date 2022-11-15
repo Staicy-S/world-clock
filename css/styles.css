@@ -1,19 +1,58 @@
 body {
   background-color: antiquewhite;
+  font-family: sans-serif;
 }
 
 .container {
+  max-width: 600px;
   background-color: rgb(255, 239, 251);
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
-  padding: 20px 20px;
-  margin: 50px 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 50px auto;
 }
 
 h1 {
   text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.city {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(214, 184, 184, 0.274);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.6;
+}
+
+.time {
+  font-size: 36px;
+  font-weight: 600;
 }
 
 footer {
   text-align: center;
+  color: rgba(0, 0, 0, 0.7);
 }
