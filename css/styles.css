@@ -52,7 +52,16 @@ select {
   font-weight: 600;
 }
 
+.link {
+  color: rgb(52, 50, 119);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.9);
 }
