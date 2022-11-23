@@ -3,7 +3,7 @@ function updateTime() {
   let berlinElement = document.querySelector("#berlin");
   let berlinDateElement = berlinElement.querySelector(".date");
   let berlinTimeElement = berlinElement.querySelector(".time");
-  let berlinTime = moment().tz("Europe/berlin");
+  let berlinTime = moment().tz("Europe/Berlin");
   berlinDateElement.innerHTML = moment().format("MMMM Do YYYY");
   berlinTimeElement.innerHTML = berlinTime.format("HH:mm:ss");
 
@@ -11,7 +11,7 @@ function updateTime() {
   let tokyoElement = document.querySelector("#tokyo");
   let tokyoDateElement = tokyoElement.querySelector(".date");
   let tokyoTimeElement = tokyoElement.querySelector(".time");
-  let tokyoTime = moment().tz("Asia/tokyo");
+  let tokyoTime = moment().tz("Asia/Tokyo");
   tokyoDateElement.innerHTML = moment().format("MMMM Do YYYY");
   tokyoTimeElement.innerHTML = tokyoTime.format("HH:mm:ss");
 
