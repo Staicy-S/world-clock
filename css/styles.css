@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(232, 236, 255);
+  background-color: rgb(21, 22, 24);
   font-family: sans-serif;
 }
 
 .container {
   max-width: 600px;
-  background-color: rgba(165, 206, 199, 0.8);
+  background-color: rgba(75, 78, 83, 0.8);
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -53,8 +53,17 @@ select {
 }
 
 .link {
-  color: rgb(52, 50, 119);
+  color: rgb(69, 67, 121);
   text-decoration: none;
+}
+
+.goBack {
+  color: rgb(109, 109, 153);
+  text-decoration: none;
+}
+
+.goBack:hover {
+  text-decoration: underline;
 }
 
 .link:hover {
@@ -63,5 +72,5 @@ select {
 
 footer {
   text-align: center;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(139, 139, 139, 0.9);
 }
